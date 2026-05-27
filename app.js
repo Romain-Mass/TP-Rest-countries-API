@@ -72,8 +72,7 @@ searchInput.addEventListener("input", (e) => {
 	displayCountries(filteredCountries);
 });
 
-changerThemes.addEventListener("click", (e) => {
-	e.preventDefault();
+changerThemes.addEventListener("click", () => {
 	document.body.classList.toggle("dark");
 });
 

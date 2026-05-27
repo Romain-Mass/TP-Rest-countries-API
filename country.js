@@ -10,7 +10,7 @@ const capital = document.querySelector(".capital");
 const topLevelDomain = document.querySelector(".top-level-domain");
 const currencies = document.querySelector(".currencies");
 const languages = document.querySelector(".languages");
-const changerThemes = document.querySelector(".fa-regular");
+const changerThemes = document.querySelector(".theme-changer");
 
 changerThemes.addEventListener("click", (e) => {
 	e.preventDefault();
